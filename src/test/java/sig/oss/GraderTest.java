@@ -28,5 +28,11 @@ public class GraderTest {
 		assertEquals(Grade.F, g);
 
 	}
+	@Test
+	public void testGradeF1() {
+		Grade g = Grader.calculate_grade(0,0);
+		assertEquals(Grade.F, g);
+
+	}
 
 }
