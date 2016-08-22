@@ -8,7 +8,12 @@ public class GraderTest {
 	public void testGradeA() {
 		Grade g = Grader.calculate_grade(45,45);
 		assertEquals(Grade.A, g);
-
+	}
+	
+	@Test
+	public void testGradeB() {
+		Grade g = Grader.calculate_grade(45,35);
+		assertEquals(Grade.A, g);
 	}
 
 }
