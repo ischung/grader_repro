@@ -21,6 +21,6 @@ public class GraderTest {
 		Grade g = Grader.calculate_grade(35,30);
 		assertEquals(Grade.C, g);
 
-	}
+	} //just test
 
 }
