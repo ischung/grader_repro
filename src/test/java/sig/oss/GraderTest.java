@@ -9,7 +9,7 @@ public class GraderTest {
 		Grade g = Grader.calculate_grade(45,45);
 		assertEquals(Grade.A, g);
 
-<<<<<<< HEAD
+
 
 
         @Test
@@ -19,8 +19,8 @@ public class GraderTest {
 
 
 	}
-=======
+
 	} //just test
->>>>>>> master
+
 
 }
