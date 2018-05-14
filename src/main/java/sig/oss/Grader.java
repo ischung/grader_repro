@@ -1,5 +1,5 @@
 package sig.oss;
-//Initial Grader Project
+//Initial Grader Project - DASE
 class Grader { 
 	static public Grade calculate_grade(int mid, int fin) {
 		int tot;
